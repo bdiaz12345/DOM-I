@@ -40,3 +40,49 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+ let domIsAwesome = document.querySelector('h1');
+ domIsAwesome.textContent = siteContent["cta"]["h1"];
+
+ let button = document.querySelector('button');
+ button.textContent = siteContent["cta"]["button"];
+
+ let navOne = document.querySelectorAll('a')[0];
+ navOne.textContent = siteContent["nav"]["nav-item-1"];
+
+ let navTwo = document.querySelectorAll('a')[1];
+ navTwo.textContent = siteContent["nav"]["nav-item-2"];
+
+ let navThree = document.querySelectorAll('a')[2];
+ navThree.textContent = siteContent["nav"]["nav-item-3"];
+
+ let navFour = document.querySelectorAll('a')[3];
+ navFour.textContent = siteContent["nav"]["nav-item-4"];
+
+ let navFive = document.querySelectorAll('a')[4];
+ navFive.textContent = siteContent["nav"]["nav-item-5"];
+
+ let navSix = document.querySelectorAll('a')[5];
+ navSix.textContent = siteContent["nav"]["nav-item-6"];
+
+ let ctaImage = document.querySelector('#cta-img');
+ ctaImage.setAttribute('src', 'img/header-img.png');
+
+ let topContent = document.querySelector('.top-content');
+ let topText = topContent.querySelectorAll('h4')[0];
+ topText.textContent = siteContent["main-content"]["features-h4"]
+ topTextTwo = topContent.querySelectorAll('h4')[1];
+ topTextTwo.textContent = siteContent["main-content"]["about-h4"]
+ topParagraph = topContent.querySelectorAll('p')[0];
+ topParagraph.textContent = siteContent["main-content"]["features-content"]
+ topParagraphTwo = topContent.querySelectorAll('p')[1];
+ topParagraphTwo.textContent = siteContent["main-content"]["about-content"]
+ 
+
+
+
+
+
+
+
+
